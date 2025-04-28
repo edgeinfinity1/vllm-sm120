@@ -43,11 +43,14 @@ void cutlass_scaled_mm_sm120_fp8(torch::Tensor& out, torch::Tensor const& a,
                                  std::optional<torch::Tensor> const& bias);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 void cutlass_scaled_mm_blockwise_sm100_fp8(torch::Tensor& out,
                                            torch::Tensor const& a,
                                            torch::Tensor const& b,
                                            torch::Tensor const& a_scales,
                                            torch::Tensor const& b_scales);
+=======
+>>>>>>> 292479b20 ([NVIDIA] Support Cutlass w8a8 for Blackwell Geforce GPUs (sm120) (#16515))
 =======
 >>>>>>> 292479b20 ([NVIDIA] Support Cutlass w8a8 for Blackwell Geforce GPUs (sm120) (#16515))
 }  // namespace vllm
